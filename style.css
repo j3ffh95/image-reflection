@@ -22,3 +22,18 @@
   width: inherit;
   transform: rotateX(180deg);
 }
+
+.bg::before {
+  content: "";
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.2),
+    #fff 60%,
+    #fff
+  );
+  position: absolute;
+  bottom: -101%;
+  height: inherit;
+  width: inherit;
+  z-index: 100;
+}
