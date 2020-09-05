@@ -26,7 +26,7 @@
 .bg::before {
   content: "";
   background-image: linear-gradient(
-    to top,
+    to bottom,
     rgba(255, 255, 255, 0.2),
     #fff 60%,
     #fff
