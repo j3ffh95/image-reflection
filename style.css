@@ -8,3 +8,16 @@
   height: 60vh;
   width: 80vw;
 }
+
+.bg::after {
+  content: "";
+  background-image: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+  position: absolute;
+  bottom: -101%;
+  height: inherit;
+  width: inherit;
+  transform: rotateX(180deg);
+}
